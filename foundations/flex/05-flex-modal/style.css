@@ -67,3 +67,31 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* My Solution */
+
+.modal {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.header__container {
+  display: flex;
+}
+
+.header {
+  margin-right: auto; /* To perfectly place the button to right */
+  font-weight: bold;
+  font-size: larger;
+}
+
+.button__container { 
+  margin-top: 8px; /* I did this because in the screenshot it seems like buttons have a little bit more margin to the top than the normal gap. LIke between header and text doesn't seem the same with text and buttons */
+}
