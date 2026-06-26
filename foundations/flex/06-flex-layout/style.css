@@ -37,17 +37,11 @@ body {
   flex-direction: column;
 }
 
-/* Header */
-
-.header {
-  display: flex;
-  padding: 16px;
-}
-
-.header .left-links {
+.left-links {
   margin-right: auto;
 }
-.header ul {
+
+ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -55,7 +49,12 @@ body {
   gap: 16px;
 }
 
-/* End of Header */
+/* Header */
+
+.header {
+  display: flex;
+  padding: 16px;
+}
 
 /* Main Content */
 
@@ -71,25 +70,11 @@ body {
   padding: 8px 16px;
 }
 
-/* End of Main Content */
-
 /* Footer */
 
 .footer {
   display: flex;
   padding: 16px;
   background-color: #eee;
+  
 }
-
-.footer .left-links {
-  margin-right: auto;
-}
-.footer ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 16px;
-}
-
-/* End of Footer */
